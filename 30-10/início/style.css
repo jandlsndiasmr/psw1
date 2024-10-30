@@ -1,0 +1,22 @@
+p{
+    background-color: rgb(255, 128, 128);
+    border: 1px solid rgb(132, 132, 255);
+    color: black;
+}
+
+#id3{
+    background-color: rgb(255, 255, 143);
+}
+
+.p{
+    background-color: rgb(135, 135, 255);
+}
+
+.block{
+    background-color: yellow;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
