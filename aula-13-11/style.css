@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    background-color: yellow;
+    height: 50%;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 0 30px;
+}
+
+li a:hover:not(.link){
+    background-color: greenyellow;
+}
