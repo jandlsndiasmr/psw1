@@ -17,8 +17,6 @@ div{
     justify-content: space-evenly;
 }
 
-
-
 #div1{
     background-color: red;
     width: 20%;
@@ -81,3 +79,8 @@ div{
     width: 25%;
     background-color: red;
 }
+
+.sexo{
+    text-align-last: left;
+}
+
