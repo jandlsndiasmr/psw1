@@ -17,9 +17,9 @@
 ?>
 
 <?php
-
+    $var =  null;
     if(is_null($var)){
-        echo    "variável" . "\$var é nula/vazia!" . "<br>";
+        echo    "A variável " . "\$var é nula/vazia! " . "<br>";
     }
 
     $var = "Bill Gates";
@@ -47,4 +47,23 @@
         echo "A variável " . "\$var é real! " . "<br>";
     }
 
+?>
+
+<?php
+
+?>
+
+
+<?php
+echo "<br>";
+    $nota = array(1, 2, 3, 4);
+    $nota[0] = 3;
+    $nota[1] = 4;
+    $nota[2] = 5;
+    $nota[3] = 2;
+
+    echo "$nota[0], $nota[1], $nota[2], $nota[3]";
+
+    for($i=0; $i<count($nota); $i++) {
+        echo "$var[$i] ";}
 ?>
