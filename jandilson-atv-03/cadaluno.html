@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <div class="h1"></div>
+            <div class="h2"></div>
+            <div class="h3"></div>
+            <div class="h4"></div>
+            <div class="h5"></div>
+        </div>
+        <div class="container">
+            <h2>Cadastro</h2>
+            <form action="#" method="post">
+                <div class="left">
+                    <div class="nome">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome: Jandilson Dias Moura" required>
+                    </div>
+                    <div class="bairro">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" id="bairro" name="bairro" placeholder="Digite seu bairro: Beija FLor" required>
+                    </div>
+                    <div class="cidade">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade: Guanambi" required>
+                    </div>
+                    <div class="uf">
+                        <label for="uf">UF:</label>
+                        <select id="uf" name="uf" required>
+                            <option value="" disabled selected>Selecione seu estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+        
+                    <div class="cpf">
+                        <label for="cpf">CPF:</label>
+                        <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF: 012.345.678.90" required>
+                    </div>
+        
+                    <div class="celular">
+                        <label for="celular">Celular:</label>
+                        <input type="tel" id="celular" name="celular" placeholder="Digite seu número de celular: (77)99956-8824" required>
+                    </div>
+        
+                    <div class="zap">
+                        <label for="zap">WhatsApp:</label>
+                        <input type="tel" id="zap" name="zap" placeholder="Digite seu WhatsApp: (77)99994-8172" required>
+                    </div>
+        
+                    <div class="data-nascimento">
+                        <label for="data-nascimento">Data de Nascimento:</label>
+                        <input type="date" id="data-nascimento" name="data-nascimento" required>
+                    </div>                
+                </div>
+                <div class="right">
+                    <label>Disciplinas Cursadas:</label>
+                    <div class="disccurs">
+                        <div class="left">
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="portugues"> Português</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="matematica"> Matemática</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="biologia"> Biologia</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="quimica"> Química</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="fisica"> Física</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="geografia"> Geografia</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="historia"> História</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="producao-textual"> Produção Textual</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="ingles"> Inglês</label>    
+                        </div>
+                        <div class="right">
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="espanhol"> Espanhol</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="analise-sistemas-web"> Análise de Sistemas para Web</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="programacao-sistemas-web"> Programação de Sistemas para Web</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="rede-computadores"> Rede de Computadores</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="banco-dados"> Banco de Dados</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="projeto-integrador"> Projeto Integrador</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="filosofia"> Filosofia</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="sociologia"> Sociologia</label>
+                            <label><input type="checkbox" name="disciplinas-cursadas" value="educacao-fisica"> Educação Física</label>    
+                        </div>
+                    </div>
+                    <label>Disciplinas Preferidas:</label>
+                    <div class="discpref">
+                        <div class="left">
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="portugues"> Português</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="matematica"> Matemática</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="biologia"> Biologia</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="quimica"> Química</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="fisica"> Física</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="geografia"> Geografia</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="historia"> História</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="producao-textual"> Produção Textual</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="ingles"> Inglês</label>    
+                        </div>
+                        <div class="right">
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="espanhol"> Espanhol</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="analise-sistemas-web"> Análise de Sistemas para Web</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="programacao-sistemas-web"> Programação de Sistemas para Web</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="rede-computadores"> Rede de Computadores</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="banco-dados"> Banco de Dados</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="projeto-integrador"> Projeto Integrador</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="filosofia"> Filosofia</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="sociologia"> Sociologia</label>
+                            <label><input type="checkbox" name="disciplinas-preferidas" value="educacao-fisica"> Educação Física</label>    
+                        </div>                
+                    </div>
+                </div>
+                <br>
+                <button id="button" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
