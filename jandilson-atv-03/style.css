@@ -18,6 +18,7 @@ body{
 .box{
     flex-direction: column;
     padding: 0;
+    width: 100%;
     background-image: linear-gradient(rgb(255, 255, 129), rgb(255, 0, 0), rgb(0, 0, 128));
 
 }
@@ -28,33 +29,38 @@ body{
     padding: 0;
 }
 
-.header>.div1, .header>.div3{
-    width: 10%;
+.header .div1, .header .div3{
     padding: 0;
 }
 
-.header>.div1{
-    width: 191px;
+.header .div1{
     justify-content: start;
 }
 
-.header>.div3{
-    width: 148px;
+.header .div3{
     justify-content: end;
 }
 
 #logoif{
-    height: 118.67px;
-    opacity: 0.9;
+    height: 100%;
+    opacity: 0.75;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
+#logoif:hover{
+    opacity: 0.5;
+}
+
 #logoceteia{
-    opacity: 0.9;
-    height: 118.67px;
+    opacity: 0.75;
+    height: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+#logoceteia:hover{
+    opacity: 0.5;
 }
 
 .header> .div2{
@@ -70,14 +76,16 @@ body{
 
 button{
     padding: 10px;
-    background-image: linear-gradient(rgb(255, 131, 131, 0.9), rgb(131, 0, 0, 0.9));
+    background-image: linear-gradient(rgb(255, 131, 131), rgb(131, 0, 0));
     border-radius: 10px;
-    border-color: rgb(0, 255, 0, 0.5);
+    border-color: rgb(0, 128, 0);]
+    opacity: 0.75;
 }
 
 button:hover{
-    background-image: linear-gradient(rgba(0, 255, 0, 0.9), rgba(0, 75, 0, 0.9));
-    border-color: rgba(255, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(127, 255, 127), rgba(0, 75, 0));
+    border-color: rgb(128, 0, 0);
+    opacity: 0.75;
 }
 
 a{
@@ -87,22 +95,33 @@ a{
 
 /* Conteúdo */
 .content{
-    height: 70vh;
+    height: 75vh;
     justify-content: center;
     color: rgb(255, 255, 255, 0.75);
 }
 
-.content>.info{
+.content .info{
     width: 80%;
-    background-image: linear-gradient(rgb(76, 76, 255, 0.5), rgb(255, 78, 78, 0.5), rgb(255, 255, 73, 0.5));
+    height: 80%;
+    background-image: linear-gradient(rgba(0, 0, 125, 0.5), rgba(255, 0, 0, 0.5), rgba(255, 255, 61, 0.5));
 }
 
-.content>.img{
-    width: auto;
+.content .div1,.content .div2{
+    width: 50%;
+    padding: 0;
+    background-color: rgb(255, 255, 255, 0)
+}
+
+.content h2{
+    cursor: default;
 }
 
 #alunosif{
-    height: 100%;
+    width: 100%;
+}
+
+#alunosif:hover{
+    opacity: 0.75;
 }
 
 /* Rodapé */
@@ -112,21 +131,25 @@ a{
     padding: 0;
 }
 
-.footer>.div1{
+.footer .div1{
     width: 90%;
 }
 
-.footer>.div2{
+.footer .div2{
     width: 128px;
     padding: 0;
     justify-content: end;
 }
 
-.footer>.div1>p{
+.footer .div1 p{
     color: rgb(255, 255, 255, 0.75);
 }
 
 #logojandy{
     height: 100%;
-    opacity: 0.9;
+    opacity: 0.75;
+}
+
+#logojandy:hover{
+    opacity: 0.5;
 }
