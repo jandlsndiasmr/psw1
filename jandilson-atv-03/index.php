@@ -21,10 +21,10 @@
         </div>
         <div class="links">
             <button>
-                <a href="cadaluno.html">Página de cadastro</a>
+                <a href="cadaluno.php">Página de cadastro</a>
             </button>
             <button>
-                <a href="listaaluno.html">Lista de dados</a>
+                <a href="listaaluno.php">Lista de dados</a>
             </button>
         </div>
         <div class="content">
@@ -33,7 +33,7 @@
                     <h2>Esse é um sistema onde você pode cadastrar estudantes e visualizar e manipular  os dados de seu cadastro.</h2>
                 </div>
                 <div class="div2">
-                    <a href="#"><img src="img/alunosif.jpg" alt="" id="alunosif"></a>
+                    <a href="#"><img src="img/alunosif.jpg" alt="" id="alunosif" height=""></a>
                 </div>
             </div>
         </div>

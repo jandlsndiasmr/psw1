@@ -1,0 +1,13 @@
+div{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+.disccurs{
+    display: flex;
+}
+
+.discpref{
+    display: flex;
+}
