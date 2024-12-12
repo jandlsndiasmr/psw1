@@ -141,7 +141,7 @@
         
                         </div>
                         <div class="div03">
-                            <label for="disciplinas_preferidas">Disciplinas Preferidas:</label><br>
+                            <label for="discpref">Disciplina Preferida:</label><br>
                             <div class="discpref">
                                 <div class="l">
                                     <input type="checkbox" id="leitura" name="disciplinas_preferidas" value="Leitura e produção textual">

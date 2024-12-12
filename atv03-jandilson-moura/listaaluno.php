@@ -27,31 +27,43 @@
                 <a href="cadaluno.php">Página de cadastro</a>
             </button>
         </div>
-        <div class="content">
+        <div class="lista">
             <table border="2">
                 <tr>
-                    <td>xyz1</td>
-                    <td>xyz2</td>
-                    <td>xyz3</td>
-                    <td>xyz4</td>
-                    <td>xyz5</td>
-                    <td>xyz6</td>
-                    <td>xyz7</td>
-                    <td>xyz8</td>
-                    <td>xyz9</td>
-                    <td>xyz10</td>
+                    <td>h3nome</td>
+                    <td>estado</td>
+                    <td>cidade</td>
+                    <td>rua</td>
+                    <td>cpf</td>
+                    <td>celular</td>
+                    <td>whatsApp</td>
+                    <td>data de nascimento</td>
                 </tr>
                 <tr>
-                    <td>xyz1</td>
-                    <td>xyz2</td>
-                    <td>xyz3</td>
-                    <td>xyz4</td>
-                    <td>xyz5</td>
-                    <td>xyz6</td>
-                    <td>xyz7</td>
-                    <td>xyz8</td>
-                    <td>xyz9</td>
-                    <td>xyz10</td>
+                    <td>
+                        <?php echo $_POST['nome'];?>
+                    </td>
+                    <td>
+                        <?php echo $_POST['estado'];?>
+                    </td>
+                    <td>
+                        <?php echo $_POST['cidade'];?>
+                    </td>
+                    <td>
+                        <?php echo $_POST['rua'];?>
+                    </td>
+                    <td>
+                        <?php echo $_POST['cpf'];?>
+                    </td>
+                    <td>
+                        <?php echo $_POST['celular'];?>
+                    </td>
+                    <td>
+                        <?php echo $_POST['zap'];?>
+                    </td>
+                    <td>
+                        <?php echo $_POST['data_nascimento'];?>
+                    </td>
                 </tr>
             </table>
         </div>
