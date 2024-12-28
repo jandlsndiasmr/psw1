@@ -21,6 +21,10 @@ body{
 
 }
 
+h3{
+    color: black;
+}
+
 /* Cabeçalho */
 .header{
     height: 20vh;
