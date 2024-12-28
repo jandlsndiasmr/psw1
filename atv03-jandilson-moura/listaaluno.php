@@ -30,7 +30,7 @@
         <div class="lista">
             <table border="2">
                 <tr>
-                    <td>h3nome</td>
+                    <td>nome</td>
                     <td>estado</td>
                     <td>cidade</td>
                     <td>rua</td>
